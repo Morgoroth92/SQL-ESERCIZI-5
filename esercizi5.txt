@@ -1,0 +1,55 @@
+CONCAT(COLUMN1, COLUMN2) AS ALIAS_NAME
+
+questo unisce i valori delle due column 1 e 2
+
+
+LOWER(COLUMN)
+
+questo converte tutti i caratteri della colonna in minuscolo
+
+
+UPPER(COLUMN)
+
+questo converte tutti i caratterei della colonna in maiuscolo
+
+
+TRIM(COLUMN)
+
+questo rimuove gli spazi nei valori della colonna
+
+
+LENGTH(COLUMN)
+
+questo restituisce la lunghezza in caratteri del valore della colonna 
+
+
+SUBSTRING(COLUMN, START, LENGTH)
+
+questo server per estrarre una stringa dalla colonna utilizzando un valore di inizio start e di quando andare a prendere con length
+
+
+ROUND(COLUMN, DECIMAL_PLACES)
+
+questo server per arrotondare i numeri in questo caso specifico riduce i numeri dei decimali
+
+
+DATE_ADD(COLUMN, INTERVAL EXPRESSION UNIT)
+DATE_SUB(COLUMN, INTERVAL EXPRESSION UNIT)
+
+questi servono rispettivamnete per aggiungere o rimuovere un intervallo nella data indicata
+
+
+FORMAT(COLUMN, FORMAT_STRING)
+
+questo serve per formattare la colonna secondo le indicazioni fornite dalla nostra stringa
+
+
+2) SELECT NOW();
+SELECT DATE_ADD(NOW(), INTERVAL 175 DAY) as BIRTHDAY_DATE;
+
+
+
+
+
+
+
